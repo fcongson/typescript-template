@@ -1,0 +1,16 @@
+{
+  "name": "javascript-template",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/index.js"
+  },
+  "devDependencies": {
+    "@babel/core": "7.28.0",
+    "@babel/preset-env": "7.28.0",
+    "@types/jest": "30.0.0",
+    "babel-jest": "30.0.5",
+    "jest": "30.0.5"
+  }
+}
