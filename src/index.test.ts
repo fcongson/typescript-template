@@ -1,7 +1,7 @@
-const { main } = require("./index");
+import { main } from "./index";
 
 describe("main function", () => {
-  let consoleSpy;
+  let consoleSpy: jest.SpyInstance;
 
   beforeEach(() => {
     // Spy on console.log to capture its calls
